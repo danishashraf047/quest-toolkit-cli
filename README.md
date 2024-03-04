@@ -24,6 +24,8 @@ You can download the latest version of the Meta Quest Toolkit from the [releases
 
 Now you are ready to use the Meta Quest Toolkit and manage your system settings and install APKs on your Meta Quest device.
 
+## Contributing
+
 We welcome contributions to the Meta Quest Toolkit! If you have any ideas, bug reports, or feature requests, please open an issue or submit a pull request on the [GitHub repository](https://github.com/danishashraf047/quest-toolkit-cli).
 
 Happy questing!
