@@ -1,0 +1,29 @@
+{
+  "name": "quest-toolkit-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/bundle.cjs",
+  "type": "module",
+  "scripts": {
+    "start": "node index.mjs",
+    "minify": "uglifyjs index.mjs -o index.min.js",
+    "webpack": "npm run minify && npx webpack",
+    "clear": "rm -rf dist && rm index.min.js",
+    "build:mac": "npm run webpack && nexe dist/bundle.cjs --build --target mac-x64-18.19.0 -o builds/mac/quest-toolkit-cli && cp -r dist builds/mac && cp -r platform-tools-mac builds/mac && npm run clear",
+    "build:win": "npm run webpack && nexe dist/bundle.cjs --build --target windows-x64-18.19.0 -o builds/win/quest-toolkit-cli && cp -r dist builds/win && cp -r platform-tools-win builds/win && npm run clear",
+    "build:linux": "npm run webpack && nexe dist/bundle.cjs --build --target linux-x64-18.19.0 -o builds/linux/quest-toolkit-cli && cp -r dist builds/linux && cp -r platform-tools-linux builds/linux && npm run clear"
+  },
+  "author": "danishashraf047@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "ora": "^8.0.1"
+  },
+  "pkg": {
+    "scripts": ["dist/bundle.cjs"]
+  },
+  "devDependencies": {
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  }
+}
