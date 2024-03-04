@@ -11,10 +11,19 @@ The Meta Quest Toolkit is a powerful command-line interface (CLI) tool that allo
 
 ## Downloads
 
-You can download the latest version of the Meta Quest Toolkit from the [releases](https://github.com/danishashraf047/meta-quest-toolkit/releases) section of the GitHub repository.
+You can download the latest version of the Meta Quest Toolkit from the [releases](https://github.com/danishashraf047/quest-toolkit-cli/releases) section of the GitHub repository.
 
-## Contributing
+## Usage
 
-We welcome contributions to the Meta Quest Toolkit! If you have any ideas, bug reports, or feature requests, please open an issue or submit a pull request on the [GitHub repository](https://github.com/danishashraf047/meta-quest-toolkit).
+1. Install the Meta Quest app on your device.
+2. Open the Meta Quest app and sign in with your account.
+3. Go to the settings menu in the Meta Quest app.
+4. Scroll down and find the "Developer Options" section.
+5. Enable the "Developer Mode" toggle.
+6. Follow the prompts to enroll in the developer program.
+
+Now you are ready to use the Meta Quest Toolkit and manage your system settings and install APKs on your Meta Quest device.
+
+We welcome contributions to the Meta Quest Toolkit! If you have any ideas, bug reports, or feature requests, please open an issue or submit a pull request on the [GitHub repository](https://github.com/danishashraf047/quest-toolkit-cli).
 
 Happy questing!
