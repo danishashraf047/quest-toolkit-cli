@@ -105,7 +105,7 @@ function createReadlineInterface() {
 
 function rebootHomeEnvironment() {
     try {
-        execSync(`${adbCommand} shell am force-stop com.oculus.shellenv`);
+        execSync(`${adbCommand} shell am force-stop com.oculus.vrshell`);
     } catch (error) {
         clearConsole();
         printSeparator();

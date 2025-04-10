@@ -24,6 +24,14 @@ You can download the latest version of the Meta Quest Toolkit from the [releases
 
 Now you are ready to use the Meta Quest Toolkit and manage your system settings and install APKs on your Meta Quest device.
 
+## Useful CLI Commands
+
+1. It reloads the Home Launcher with an updated resolution.
+```
+adb shell am force-stop com.oculus.shellenv (Works with old version of OS)
+adb shell am force-stop com.oculus.vrshell (Works with current version of OS)
+```
+
 ## Contributing
 
 We welcome contributions to the Meta Quest Toolkit! If you have any ideas, bug reports, or feature requests, please open an issue or submit a pull request on the [GitHub repository](https://github.com/danishashraf047/quest-toolkit-cli).
